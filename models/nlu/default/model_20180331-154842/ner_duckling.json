@@ -1,0 +1,9 @@
+{
+  "dimensions": [
+    "duration",
+    "email",
+    "number",
+    "time",
+    "timezone"
+  ]
+}

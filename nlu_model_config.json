@@ -1,0 +1,17 @@
+{
+  "pipeline":
+  [
+    "nlp_spacy",
+    "ner_spacy",
+    "tokenizer_spacy",
+    "intent_featurizer_spacy",
+    "ner_crf",
+    "ner_synonyms",
+    "intent_classifier_sklearn",
+    "ner_duckling"
+  ],
+  "language": "en",
+  "duckling_dimensions": ["duration", "ordinal", "number", "time", "timezone"],
+  "path" : "./models/nlu",
+  "data" : "./data"
+}

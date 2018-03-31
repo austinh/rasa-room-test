@@ -1,0 +1,127 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "find_conference_room",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "4pm",
+            "entity": "datetime"
+          }
+        ],
+        "text": "i need a conference room at 4pm"
+      },
+      {
+        "intent": "find_conference_room",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "tomorrow",
+            "entity": "datetime"
+          }
+        ],
+        "text": "find me a room tomorrow"
+      },
+      {
+        "intent": "find_conference_room",
+        "entities": [],
+        "text": "book me a room"
+      },
+      {
+        "intent": "find_conference_room",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "tomorrow",
+            "entity": "datetime"
+          }
+        ],
+        "text": "what rooms are available tomorrow?"
+      },
+      {
+        "intent": "find_conference_room",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "5th",
+            "entity": "floor"
+          }
+        ],
+        "text": "Find me a conference room on the 5th floor"
+      },
+      {
+        "intent": "find_conference_room",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Tower 49",
+            "entity": "wework_location"
+          },
+          {
+            "start": 18,
+            "end": 36,
+            "value": "tomorrow afternoon",
+            "entity": "datetime"
+          }
+        ],
+        "text": "rooms in Tower 49 tomorrow afternoon"
+      },
+      {
+        "intent": "find_conference_room",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Chelsea",
+            "entity": "wework_location"
+          },
+          {
+            "start": 17,
+            "end": 35,
+            "value": "tomorrow afternoon",
+            "entity": "datetime"
+          }
+        ],
+        "text": "rooms in Chelsea tomorrow afternoon"
+      },
+      {
+        "intent": "find_conference_room",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "5 hours",
+            "entity": "duration"
+          },
+          {
+            "start": 29,
+            "end": 44,
+            "value": "thursday at 5pm",
+            "entity": "datetime"
+          }
+        ],
+        "text": "i need a room for 5 hours on thursday at 5pm"
+      },
+      {
+        "intent": "find_conference_room",
+        "entities": [
+          {
+            "start": 14,
+            "end": 42,
+            "value": "between 2pm and 5pm tomorrow",
+            "entity": "datetime"
+          }
+        ],
+        "text": "i need a room between 2pm and 5pm tomorrow"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
